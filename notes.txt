@@ -1,0 +1,24 @@
+Using pybox2d.
+
+Fundamental objects {
+
+		shape.
+		rigid body; very strong bit of matter like a diamond.
+		fixture; binds a shape to a body
+		constraint; like a pendulum; we pin to the wall.
+
+		joints; several types; distance, revolute, etc
+
+		world: a collection of bodies and constraints...
+}
+
+
+Modules{
+	Three modules-
+	Common: code for allocation, math, and settings.
+	Collision: defines shapes, broad-phase, collision functions/queries
+	Dynamics: provides simulation world, bodies, fixtures, and joints.
+}
+
+
+
