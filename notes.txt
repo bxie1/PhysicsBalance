@@ -21,4 +21,31 @@ Modules{
 }
 
 
+Neural Network --
 
+Static configuration with a fulcrum balance.
+
+Reasons why this problem is interesting:
+	- Novelty Search should be better than a random walk; it's better because it complexifies
+	- Human beings smartly choose where to balance something based on experience and trial and error
+	
+	
+
+
+
+PLAN OF PROJECT:
+
+1. Get simulation up.
+	We will need a basic pygame window first.
+	We then will add some shapes like boxes.
+	In the main program we want to be able to demonstrate a balance.
+	
+2. Set up NoveltySearch to work with the code.
+	We will need a loop that resets the simulation each time.
+	Each reset will need to generate and position a block on the config.
+	Each individual should finish quickly; maybe wait exactly 3 seconds
+	We will need to be able to figure out where the main block winds up to calculate fitness...
+		Will this start falling right away?
+		
+
+	

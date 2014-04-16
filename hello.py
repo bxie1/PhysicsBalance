@@ -4,6 +4,8 @@ from pygame import *
 import Box2D
 from Box2D import *
 
+world = b2World()
+
 # Define some colors
 BLACK = ( 0, 0, 0)
 WHITE = ( 255, 255, 255)
